@@ -1,11 +1,23 @@
 <script setup>
 defineProps({
 car_id: {
-      type: Number,
+    type: Number,
     required: true
   },
   brand: {
     type: String,
+    required: true
+  },
+  serie: {
+    type: String,
+    required: true
+  },
+  origin: {
+    type: String,
+    required: true
+  },
+  price: {
+    type: Number,
     required: true
   }
 })
